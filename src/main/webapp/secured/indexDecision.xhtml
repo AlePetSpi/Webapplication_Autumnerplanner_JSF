@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html" 
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <head>
+        <title>Autumnplanner</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <h:form>
+            <link rel="stylesheet" type="text/css" href="rescources/css/main.css"/>
+            <h3>Autumnplanner</h3>
+            <h:outputText value="Welcome, #{autumn.userlogin}!" />
+            <br />
+            <h:outputLabel value="Please choose, what you will do on the holidays." />
+            <br />
+            <h:selectOneRadio required="true" value="#{autumn.setting}">
+                <f:selectItem itemLabel="I stay at home." itemValue="staytAtHome" />
+                <br />
+                <f:selectItem itemLabel="I am going abroad." itemValue="GoingAbroad" />
+            </h:selectOneRadio>
+            <br />
+            <h:commandButton action="#{autumn.loadnextpage(2)}" value="Go to the next page"/>
+        </h:form>
+    </body>
+</html>

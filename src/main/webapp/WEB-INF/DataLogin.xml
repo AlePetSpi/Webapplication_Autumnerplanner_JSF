@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<Users name ="BBB" > 
+    <User>  
+        <ID>0</ID> 
+        <Name>Grudrun</Name>
+        <Password>Ihlhuelb</Password>
+        <HolidayDestination>Oslo</HolidayDestination>
+        <Activity>Watch movies</Activity>
+    </User>
+    <User>
+        <ID>1</ID> 
+        <Name>ElonMusk</Name>
+        <Password>S3XY</Password>
+        <HolidayDestination>Los Angeles</HolidayDestination>
+        <Activity>Read books</Activity>
+    </User>
+    <User>
+        <ID>2</ID> 
+        <Name>ab</Name>
+        <Password>12</Password>
+        <HolidayDestination>Munich</HolidayDestination>
+        <Activity>Read books</Activity>
+    </User>
+</Users>
+
